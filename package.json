@@ -3,13 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint ./",
-    "test": "jest -i --verbose --coverage --runInBand",
-    "start": "node index.js",
-    "dboff": "killall mongod",
-    "watch": "nodemon index.js",
-    "dbon": "mkdir -p ./db && mongod --dbpath ./db"
   },
   "repository": {
     "type": "git",
